@@ -1,0 +1,17 @@
+.league-select {
+  background-color: white;
+  border-radius: 8px;
+  padding: 0.5em 2em 0.5em 1em;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.league-select:hover {
+  border-color: #888;
+  box-shadow: 0 0 10px 0px black;
+}
+
+.league-select:focus {
+  outline: none;
+}
